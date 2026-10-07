@@ -2,6 +2,8 @@
 
 王路（Wang Lu）的阿毗达磨著作与研究资料。
 
+[全部著作书目](https://github.com/wanglu2016/wanglu-books) · [王路文集](https://github.com/wanglu2016/wanglu-writings)
+
 ## 著作
 
 以下两份 PDF 保留作者提供的原文件及文件名，可在线阅读或下载。
