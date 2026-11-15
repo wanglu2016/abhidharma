@@ -1,458 +1,89 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>试卷</title>
-    <meta charset="UTF-8">
-    <title>My HTML page</title>
-    <style>
-      body {
-        font-size: 24px;
-      }
-      input[type="submit"] {
-        font-size: 24px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>分別根品測試一</h1>
+<html lang="zh-CN" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>说一切有部阿毗达磨学习 | Sarvāstivāda Abhidharma</title>
+<meta name="description" content="以王路《俱舍九题》《俱舍万字》《俱舍英译百瑕》《阿毗达磨理校百例》为骨架的说一切有部阿毗达磨学习网站：全局地图、纲要、颂文、概念与英译指误。 A study site for Sarvāstivāda Abhidharma built on Wang Lu&#x27;s books: map, outline, verses, concepts and the flaws of the English Kośa.">
+<meta property="og:title" content="说一切有部阿毗达磨学习 | Sarvāstivāda Abhidharma">
+<meta property="og:description" content="以王路《俱舍九题》《俱舍万字》《俱舍英译百瑕》《阿毗达磨理校百例》为骨架的说一切有部阿毗达磨学习网站：全局地图、纲要、颂文、概念与英译指误。">
+<meta property="og:image" content="https://wanglu2016.github.io/abhidharma/assets/og.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script>(function(){var l;try{l=localStorage.getItem('abhi-lang')}catch(e){}if(l!=='zh'&&l!=='en'&&l!=='both'){l=((navigator.language||'').toLowerCase().indexOf('zh')===0)?'zh':'en'}document.documentElement.setAttribute('data-lang',l)})();</script>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/site.css">
 
-    <form onsubmit="calculateScore(); return false;">
-      <h2>（不定項選擇。每題10分，共100分。少選、多選、錯選皆不得分。開卷。答題時間5小時。
-        <br>註：「容」字的理解：若甲定是乙，則甲容是乙；若甲必非乙，則甲容非乙。）</h2>
-      
-  
-      
-      <p> 1、以下哪些根，依次容是色蘊、受蘊、行蘊、識蘊？</p>
-      <label>
-        <input type="checkbox" name="q1[]" value="a">
-        A：身根、憂根、命根、意根
-      </label><br>
-      <label>
-        <input type="checkbox" name="q1[]" value="b">
-        B：男根、樂根、已知根、意根
-      </label><br>
-      <label>
-        <input type="checkbox" name="q1[]" value="c">
-       C：舌根、喜根、信根、具知根
-      </label><br>
-      <label>
-        <input type="checkbox" name="q1[]" value="d">
-       D：眼根、苦根、未知當知根、具知根
-      </label><br>
-      <label>
-        <input type="checkbox" name="q1[]" value="e">
-       E：耳根、捨根、慧根、已知根
-      </label><br>
+</head>
+<body class="">
+<a class="skip" href="#main"><span class="zh" lang="zh-Hans">跳到正文</span><span class="en" lang="en">Skip to content</span></a>
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="index.html"><span class="seal" aria-hidden="true">論</span><span class="brand-t"><span class="zh" lang="zh-Hans">说一切有部阿毗达磨学习</span><span class="en" lang="en">Studying Sarvāstivāda Abhidharma</span></span></a>
+    <div class="lang" role="group" aria-label="Language / 语言">
+      <button type="button" data-set-lang="zh" lang="zh-Hans">中</button><button type="button" data-set-lang="en" lang="en">EN</button><button type="button" data-set-lang="both" lang="zh-Hans">中英</button>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="主导航 Main"><a href="index.html" aria-current="page"><span class="zh" lang="zh-Hans">首页</span><span class="en" lang="en">Home</span></a><a href="map.html"><span class="zh" lang="zh-Hans">地图</span><span class="en" lang="en">Map</span></a><a href="outline.html"><span class="zh" lang="zh-Hans">纲要</span><span class="en" lang="en">Outline</span></a><a href="verses.html"><span class="zh" lang="zh-Hans">颂文</span><span class="en" lang="en">Verses</span></a><a href="concepts.html"><span class="zh" lang="zh-Hans">概念</span><span class="en" lang="en">Concepts</span></a><a href="jiuti.html"><span class="zh" lang="zh-Hans">九题</span><span class="en" lang="en">Nine Questions</span></a><a href="translations.html"><span class="zh" lang="zh-Hans">英译百瑕</span><span class="en" lang="en">Translation Flaws</span></a><a href="emendations.html"><span class="zh" lang="zh-Hans">理校百例</span><span class="en" lang="en">Emendations</span></a><a href="genpin-1.html"><span class="zh" lang="zh-Hans">练习</span><span class="en" lang="en">Practice</span></a><a href="resources.html"><span class="zh" lang="zh-Hans">资源</span><span class="en" lang="en">Resources</span></a></nav>
+</header>
+<main id="main">
 
-   
-      <p>2、以下哪些地，依次有苦根、樂根、憂根、喜根、捨根？</p>
-      <label>
-        <input type="checkbox" name="q2[]" value="a">
-       A：欲界、初靜慮、欲界、第二靜慮、第四靜慮
-      </label><br>
-      <label>
-        <input type="checkbox" name="q2[]" value="b">
-        B：欲界、第二靜慮、欲界、初靜慮、空無邊處
-      </label><br>
-      <label>
-        <input type="checkbox" name="q2[]" value="c">
-        C：初靜慮、初靜慮、欲界、初靜慮、非想非非想處
-      </label><br>
-      <label>
-        <input type="checkbox" name="q2[]" value="d">
-       D：欲界、第三靜慮、欲界、第二靜慮、識無邊處
-      </label><br>
-      <label>
-        <input type="checkbox" name="q2[]" value="e">
-        E：欲界、欲界、欲界、初靜慮、無所有處
-      </label><br>
+<section class="hero" aria-labelledby="hero-h">
+ <div class="hero-in">
+  <div>
+   <h1 id="hero-h"><span class="zh" lang="zh-Hans">说一切有部阿毗达磨学习</span><span class="en" lang="en">Studying Sarvāstivāda Abhidharma</span></h1>
+   <p><span class="zh" lang="zh-Hans">以《阿毗达磨俱舍论》为中心，按王路的四部著作安排学习：先看全局地图，再读纲要、背颂文，最后进入《俱舍九题》的高阶问题。</span><span class="en" lang="en">Centred on the Abhidharmakośa and organised around Wang Lu's four books: see the whole map first, then read the outline and learn the verses, and finally take on the advanced problems of the Nine Questions.</span></p>
+   <p class="by"><span class="zh" lang="zh-Hans">王路 著　网站内容据作者著作整理</span><span class="en" lang="en">Writings by Wang Lu, arranged for study</span></p>
+   <div class="cta">
+     <a class="btn" href="map.html"><span class="zh" lang="zh-Hans">看全局地图</span><span class="en" lang="en">Open the map</span></a>
+     <a class="btn ghost" href="outline.html"><span class="zh" lang="zh-Hans">从纲要读起</span><span class="en" lang="en">Start with the outline</span></a>
+     <a class="btn ghost" href="translations.html"><span class="zh" lang="zh-Hans">读英译本的人从这里开始</span><span class="en" lang="en">Reading Pruden or Sangpo? Start here</span></a>
+   </div>
+   <p class="gloss"><span class="zh" lang="zh-Hans">右为《俱舍论》开卷第二颂：清净的慧及其随行名为“对法”（阿毗达磨），能得此慧的论也名对法；此论摄彼胜义、依彼而成，故名“对法俱舍”。</span><span class="en" lang="en">At right, the second verse of the Kośa: pure understanding with what accompanies it is called Abhidharma, and so are the treatises that lead to it; this work gathers their essence and rests on them, hence the name Abhidharma-kośa, 'treasury of Abhidharma'.</span></p>
+  </div>
+  <p class="vverse" lang="zh-Hant"><span>淨慧隨行名對法</span><span>及能得此諸慧論</span><span>攝彼勝義依彼故</span><span>此立對法俱舍名</span><cite>俱舍論頌・分別界品</cite></p>
+ </div>
+</section>
+<div class="wrap">
+ <section class="block" style="margin-top:2.6rem" aria-labelledby="path-h">
+  <div class="cols" style="grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);align-items:start">
+   <div>
+    <h2 id="path-h"><span class="zh" lang="zh-Hans">学习路线</span><span class="en" lang="en">A route through the material</span></h2>
+    <p class="muted read"><span class="zh" lang="zh-Hans">下面的次序整理自作者在《俱舍九题》序与要点中的建议。</span><span class="en" lang="en">This sequence follows the author's advice in the preface and key points of the Nine Questions.</span></p>
+    <ol class="path"><li><div><h3><a href="outline.html"><span class="zh" lang="zh-Hans">读纲要，记住“是什么”</span><span class="en" lang="en">Read the outline: remember the 'what'</span></a></h3><p><span class="zh" lang="zh-Hans">《俱舍万字》用约一万字列出《俱舍》纲目。作者说基础阶段“不适合多问为什么，而适合多记住是什么”；前面看不懂的先跳过。</span><span class="en" lang="en">The Ten Thousand Characters lays out the Kośa's framework in about ten thousand characters. At this stage, the author says, remember what things are rather than asking why; skip what you don't yet understand.</span></p></div></li><li><div><h3><a href="verses.html"><span class="zh" lang="zh-Hans">背《俱舍论颂》</span><span class="en" lang="en">Memorise the Verses</span></a></h3><p><span class="zh" lang="zh-Hans">作者心目中熟练的标准：八十分钟内背完全部颂，随机抽取任意一颂都能正确讲解。颂文页提供随机抽颂和遮盖自测。</span><span class="en" lang="en">The author's benchmark: recite all the verses within eighty minutes and correctly explain any verse drawn at random. The verse page offers random draws and masking for self-testing.</span></p></div></li><li><div><h3><a href="map.html"><span class="zh" lang="zh-Hans">按建议次序通读《俱舍》，对照地图</span><span class="en" lang="en">Read the Kośa in the suggested order, with the map</span></a></h3><p><span class="zh" lang="zh-Hans">建议次序：定品；贤圣品、随眠品；界品、根品；业品；世间品、智品。地图标出每个概念属于哪一品、作者认为它是要点、难点还是基本操作。</span><span class="en" lang="en">Suggested order: Meditation; Path and Anuśaya; Elements and Faculties; Action; World and Knowledge. The map shows which chapter each concept belongs to and whether the author treats it as a key point, a difficulty or a basic operation.</span></p></div></li><li><div><h3><a href="jiuti.html#entry"><span class="zh" lang="zh-Hans">做入门测验</span><span class="en" lang="en">Take the entrance test</span></a></h3><p><span class="zh" lang="zh-Hans">默写九十八随眠、七十五法、三十七道品、二十二根；能解释二十二根的异熟、三性、何所断等。半小时内闭卷全对，即具备读《九题》的基础。</span><span class="en" lang="en">Write out the 98 anuśayas, 75 dharmas, 37 factors of awakening and 22 faculties; explain the faculties by retribution, nature and mode of abandonment. All correct, closed-book, in half an hour means you are ready for the Nine Questions.</span></p></div></li><li><div><h3><a href="jiuti.html"><span class="zh" lang="zh-Hans">读《俱舍九题》</span><span class="en" lang="en">Work through the Nine Questions</span></a></h3><p><span class="zh" lang="zh-Hans">前四题“登堂”，五、六题“入室”，第七题“专家”，八、九题是向阿毗达磨深处的探寻。全日制、每日五小时，从零起步约八个月。</span><span class="en" lang="en">Questions 1–4: entering the hall; 5–6: the inner room; 7: expert; 8–9: the far reaches. Full-time, five hours a day, about eight months from zero.</span></p></div></li></ol>
+   </div>
+   <div>
+    <h2><span class="zh" lang="zh-Hans">作者谈方法</span><span class="en" lang="en">The author on method</span></h2>
+    <div style="margin-top:1rem"><blockquote class="quote"><span class="zh" lang="zh-Hans">要学好阿毗达磨，必须反反复复看《婆沙》、《俱舍》、《正理》原文，有些段落可能要读过五十遍以上。不过要记住，不是让你通读……所有读过五十遍以上的段落，基本上都是因为碰到具体问题去检索，然后反复读。</span><span class="en" lang="en">To learn Abhidharma well you must read the Vibhāṣā, the Kośa and the Nyāyānusāra again and again; some passages fifty times or more. But not by reading straight through: those passages get read fifty times because a concrete problem sends you searching for them.</span><cite>《俱舍九题》序</cite></blockquote><blockquote class="quote"><span class="zh" lang="zh-Hans">我强烈建议结合问题学习《俱舍》。</span><span class="en" lang="en">I strongly recommend studying the Kośa through problems.</span><cite>《俱舍九题》要点</cite></blockquote><blockquote class="quote"><span class="zh" lang="zh-Hans">可以尝试一个概念一个概念地学。但千万不要企图“掌握了一个概念之后再学下一个”——不把所有概念学完，有些概念是无论如何也掌握不了的。</span><span class="en" lang="en">You can try to learn concept by concept, but never try to master one before moving to the next: some concepts cannot be grasped until all have been learned.</span><cite>《俱舍九题》要点</cite></blockquote><blockquote class="quote"><span class="zh" lang="zh-Hans">阿毗达磨的核心就是两个字：离染。</span><span class="en" lang="en">The core of Abhidharma is one word: detachment.</span><cite>《俱舍九题》要点</cite></blockquote></div>
+    <p class="note"><span class="zh" lang="zh-Hans">检索工具：CBETA（毘昙部原文）、SAT（快道林常《俱舍论法义》），见</span><span class="en" lang="en">Search tools: CBETA for the Abhidharma texts, SAT for Kaidō's Hōgi; see</span> <a href="resources.html#tools"><span class="zh" lang="zh-Hans">资源</span><span class="en" lang="en">Resources</span></a>。</p>
+   </div>
+  </div>
+ </section>
+ <section class="block" aria-labelledby="books-h">
+  <h2 id="books-h"><span class="zh" lang="zh-Hans">四部著作</span><span class="en" lang="en">Four books</span></h2>
+  <p class="muted read"><span class="zh" lang="zh-Hans">难度按作者自己的说明排列。</span><span class="en" lang="en">Ordered by difficulty, as the author describes them.</span></p>
+  <div class="books"><div class="book"><h3><a href="outline.html"><span class="zh" lang="zh-Hans">《俱舍万字》</span><span class="en" lang="en">Ten Thousand Characters on the Kośa</span></a></h3><p class="lvl"><span class="zh" lang="zh-Hans">基础</span><span class="en" lang="en">Basic</span></p><p><span class="zh" lang="zh-Hans">《俱舍》纲目，约一万字，用简体写成，面向初学。本站全文收录并配英译。</span><span class="en" lang="en">The Kośa's framework in ~10,000 characters, for beginners. Full text with English on this site.</span></p></div><div class="book"><h3><a href="translations.html"><span class="zh" lang="zh-Hans">《俱舍英译百瑕》</span><span class="en" lang="en">One Hundred Flaws in the English Kośa</span></a></h3><p class="lvl"><span class="zh" lang="zh-Hans">比《九题》简单</span><span class="en" lang="en">Easier than the Nine Questions</span></p><p><span class="zh" lang="zh-Hans">逐条指出 Pruden 与 Lodrö Sangpo 两部英译本的一百处错误。附录有十余条英文稿。</span><span class="en" lang="en">One hundred errors in the Pruden and Lodrö Sangpo translations, entry by entry; an appendix gives a dozen in English.</span></p></div><div class="book"><h3><a href="emendations.html"><span class="zh" lang="zh-Hans">《阿毗达磨理校百例》</span><span class="en" lang="en">One Hundred Doctrinal Emendations</span></a></h3><p class="lvl"><span class="zh" lang="zh-Hans">难于《百瑕》，易于《九题》</span><span class="en" lang="en">Harder than the Flaws, easier than the Nine Questions</span></p><p><span class="zh" lang="zh-Hans">依阿毗达磨义理校正《大正藏》毘昙部的误字，示范如何“理校”。</span><span class="en" lang="en">Corrects scribal errors in the Taishō Abhidharma section by doctrinal reasoning, showing how such emendation works.</span></p></div><div class="book"><h3><a href="jiuti.html"><span class="zh" lang="zh-Hans">《俱舍九题》</span><span class="en" lang="en">The Nine Questions of the Kośa</span></a></h3><p class="lvl"><span class="zh" lang="zh-Hans">高阶</span><span class="en" lang="en">Advanced</span></p><p><span class="zh" lang="zh-Hans">高阶阿毗达磨串讲。九个问题贯穿全论，2024 年在台湾出版。</span><span class="en" lang="en">An advanced course: nine problems that run through the whole treatise. Published in Taiwan, 2024.</span></p></div></div>
+ </section>
+ <section class="block" aria-labelledby="en-h">
+  <h2 id="en-h"><span class="zh" lang="zh-Hans">给中文不熟练的读者</span><span class="en" lang="en">If Chinese is not your first language</span></h2>
+  <div class="read">
+   <p><span class="zh" lang="zh-Hans">作者认为玄奘的译语最为精确：“只懂汉语完全可以”学好《俱舍》，而只依靠英译本则会被大量误译带偏。本站为英文读者准备了：</span><span class="en" lang="en">The author holds that Xuanzang's Chinese is the most precise vehicle for the Kośa, and that relying on the English translations alone leads readers astray at many points. For English readers this site provides:</span></p>
+   <ul>
+    <li><span class="zh" lang="zh-Hans">《俱舍万字》全文逐段英译，以及近百个概念的中、梵、英对照释义；</span><span class="en" lang="en">an English rendering of the whole outline, and some ninety concepts with Chinese, Sanskrit and English;</span></li>
+    <li><span class="zh" lang="zh-Hans">《英译百瑕》一百条的英文提要，标出颂号和两部英译本的页码，可以边读英译边查；</span><span class="en" lang="en">English summaries of all one hundred Translation Flaws, keyed to verse numbers and to page numbers in Pruden and Lodrö Sangpo, for use while reading;</span></li>
+    <li><span class="zh" lang="zh-Hans">界面可切换为中英对照：中文术语始终保留，便于在 CBETA 检索原文。</span><span class="en" lang="en">a parallel Chinese–English view; Chinese terms are always kept so you can search the originals on CBETA.</span></li>
+   </ul>
+  </div>
+ </section>
+</div>
+</main>
+<footer class="site">
+  <div class="foot">
+    <p><span class="zh" lang="zh-Hans">内容取自王路的阿毗达磨著作；颂文据 CBETA《阿毘達磨俱舍論本頌》（T1560），供非商业使用。英文为辅助译文，以玄奘译语为准。</span><span class="en" lang="en">Content is drawn from Wang Lu's Abhidharma writings; verses from CBETA, T1560, for non-commercial use. English renderings are reading aids: Xuanzang's Chinese terms are authoritative.</span></p>
+    <ul class="foot-links"><li><a href="https://github.com/wanglu2016/abhidharma">GitHub</a></li><li><a href="resources.html#books"><span class="zh" lang="zh-Hans">下载著作 PDF</span><span class="en" lang="en">Download the PDFs</span></a></li><li><span class="zh" lang="zh-Hans">勘误请寄</span><span class="en" lang="en">Corrections to</span> <a href="mailto:cuechin@163.com">cuechin@163.com</a></li></ul>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
 
-     
-      <p>3、以下哪些根，依次容是身受、心受？</p>
-      <label>
-        <input type="checkbox" name="q3[]" value="a">
-        A：第二靜慮捨根、欲界樂根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q3[]" value="b">
-       B：初靜慮喜根、初靜慮樂根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q3[]" value="c">
-       C：第三靜慮樂根、初靜慮樂根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q3[]" value="d">
-       D：初靜慮未知當知根、欲界捨根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q3[]" value="e">
-       E：初靜慮捨根、初靜慮具知根
-
-      </label><br>
-
-     
-      <p>4、以下哪些根，依次容有漏、容無漏、必有漏、必無漏？</p>
-      <label>
-        <input type="checkbox" name="q4[]" value="a">
-        A：樂根、信根、憂根、未知當知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q4[]" value="b">
-      B：捨根、命根、眼根、已知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q4[]" value="c">
-       C：勤根、定根、命根、具知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q4[]" value="d">
-        D：身根、慧根、信根、已知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q4[]" value="e">
-       E：慧根、樂根、苦根、未知當知根
-
-      </label><br>
-
-      
-      <p>5、以下哪些根，依次容是異熟、容非異熟、必是異熟、必非異熟？</p>
-      <label>
-        <input type="checkbox" name="q5[]" value="a">
-        A：眼根、捨根、命根、憂根
-      </label><br>
-      <label>
-        <input type="checkbox" name="q5[]" value="b">
-        B：身根、意根、憂根、信根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q5[]" value="c">
-        C：意根、樂根、命根、定根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q5[]" value="d">
-       D：苦根、憂根、命根、念根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q5[]" value="e">
-     E：樂根、苦根、捨根、憂根
-
-      </label><br>
-
-    
-      <p>6、以下哪些根，依次容是異熟、容有異熟、容非異熟、容無異熟？</p>
-      <label>
-        <input type="checkbox" name="q6[]" value="a">
-       A：命根、苦根、憂根、捨根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q6[]" value="b">
-       B：樂根、信根、未知當知根、具知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q6[]" value="c">
-       C：女根、未知當知根、具知根、已知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q6[]" value="d">
-        D：意根、憂根、命根、捨根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q6[]" value="e">
-       E：眼根、苦根、信根、女根
-
-      </label><br>
-
-     
-      <p>7、以下哪些根，依次容是善、容是不善、容是無記、容是三種？</p>
-      <label>
-        <input type="checkbox" name="q7[]" value="a">
-        A：捨根、信根、命根、苦根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q7[]" value="b">
-        B：苦根、眼根、身根、樂根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q7[]" value="c">
-        C：喜根、意根、憂根、捨根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q7[]" value="d">
-        D：男根、憂根、舌根、樂根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q7[]" value="e">
-        E：苦根、喜根、眼根、樂根
-
-      </label><br>
-
-     
-      <p>8、以下哪些根，依次容是欲界繫、必是欲界繫、容非色界繫、必非無色界繫？</p>
-      <label>
-        <input type="checkbox" name="q8[]" value="a">
-        A：命根、憂根、眼根、樂根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q8[]" value="b">
-        B：已知根、苦根、樂根、身根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q8[]" value="c">
-        C：定根、女根、未知當知根、喜根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q8[]" value="d">
-        D：身根、喜根、具知根、憂根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q8[]" value="e">
-        E：憂根、憂根、苦根、命根
-
-      </label><br>
-
-     
-      <p>9、以下哪些根，依次容是見所斷、容是修所斷、定非見所斷、定非修所斷？</p>
-      <label>
-        <input type="checkbox" name="q9[]" value="a">
-        A：樂根、信根、命根、已知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q9[]" value="b">
-        B：喜根、眼根、身根、未知當知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q9[]" value="c">
-       C：捨根、命根、信根、具知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q9[]" value="d">
-       D：意根、已知根、女根、具知根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q9[]" value="e">
-       E：苦根、意根、定根、已知根
-
-      </label><br>
-
-     
-      <p>10、以下哪些根，依次容是欲界受生初得異熟、色界受生初得異熟、欲界受生後得異熟、色界受生後得異熟？</p>
-      <label>
-        <input type="checkbox" name="q10[]" value="a">
-        A：女根、身根、憂根、喜根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q10[]" value="b">
-       B：身根、鼻根、苦根、樂根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q10[]" value="c">
-        C：命根、眼根、已知根、捨根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q10[]" value="d">
-       D：眼根、耳根、喜根、信根
-
-      </label><br>
-      <label>
-        <input type="checkbox" name="q10[]" value="e">
-      E：意根、命根、捨根、喜根
-
-      </label><br><br>
-
-      <input type="submit" value="提交答案">
-    </form>
-
- <p>最终得分：<span id="total-score"></span></p>
-
-    <script>
-function calculateScore() {
-  var totalScore = 0;
-  
-  // Question 1
-  var question1Answers = ['a', 'b', 'c','d','e']; // 正确答案
-  var question1Selected = []; // 选中的答案
-  var question1Score = 10; // 该题得分
-  var question1Inputs = document.querySelectorAll('input[name="q1[]"]');
-  question1Inputs.forEach(function(input) {
-    if (input.checked) {
-      question1Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question1Answers, question1Selected)) {
-    totalScore += question1Score;
-  }
-  
-  // Question 2
-  var question2Answers = ['a', 'd', 'e']; // 正确答案
-  var question2Selected = []; // 选中的答案
-  var question2Score = 10; // 该题得分
-  var question2Inputs = document.querySelectorAll('input[name="q2[]"]');
-  question2Inputs.forEach(function(input) {
-    if (input.checked) {
-      question2Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question2Answers, question2Selected)) {
-    totalScore += question2Score;
-  }
-  
-  // Question 3
-  var question3Answers = ['e']; // 正确答案
-  var question3Selected = []; // 选中的答案
-  var question3Score = 10; // 该题得分
-  var question3Inputs = document.querySelectorAll('input[name="q3[]"]');
-  question3Inputs.forEach(function(input) {
-    if (input.checked) {
-      question3Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question3Answers, question3Selected)) {
-    totalScore += question3Score;
-  }
-  
-  // Question 4
-  var question4Answers = ['a', 'c', 'e']; // 正确答案
-  var question4Selected = []; // 选中的答案
-  var question4Score = 10; // 该题得分
-  var question4Inputs = document.querySelectorAll('input[name="q4[]"]');
-  question4Inputs.forEach(function(input) {
-    if (input.checked) {
-      question4Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question4Answers, question4Selected)) {
-    totalScore += question4Score;
-  }
-  
-  // Question 5
-  var question5Answers = ['a', 'c', 'd']; // 正确答案
-  var question5Selected = []; // 选中的答案
-  var question5Score = 10; // 该题得分
-  var question5Inputs = document.querySelectorAll('input[name="q5[]"]');
-  question5Inputs.forEach(function(input) {
-    if (input.checked) {
-      question5Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question5Answers, question5Selected)) {
-    totalScore += question5Score;
-  }
-  
-  // Question 6
-  var question6Answers = ['a', 'b', 'e']; // 正确答案
-  var question6Selected = []; // 选中的答案
-  var question6Score = 10; // 该题得分
-  var question6Inputs = document.querySelectorAll('input[name="q6[]"]');
-  question6Inputs.forEach(function(input) {
-    if (input.checked) {
-      question6Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question6Answers, question6Selected)) {
-    totalScore += question6Score;
-  }
-  
-  // Question 7
-  var question7Answers = ['e']; // 正确答案
-  var question7Selected = []; // 选中的答案
-  var question7Score = 10; // 该题得分
-  var question7Inputs = document.querySelectorAll('input[name="q7[]"]');
-  question7Inputs.forEach(function(input) {
-    if (input.checked) {
-      question7Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question7Answers, question7Selected)) {
-    totalScore += question7Score;
-  }
-  
-  // Question 8
-  var question8Answers = ['a', 'c']; // 正确答案
-  var question8Selected = []; // 选中的答案
-  var question8Score = 10; // 该题得分
-  var question8Inputs = document.querySelectorAll('input[name="q8[]"]');
-  question8Inputs.forEach(function(input) {
-    if (input.checked) {
-      question8Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question8Answers, question8Selected)) {
-    totalScore += question8Score;
-  }
-  
-  // Question 9
-  var question9Answers = ['a', 'b', 'c']; // 正确答案
-  var question9Selected = []; // 选中的答案
-  var question9Score = 10; // 该题得分
-  var question9Inputs = document.querySelectorAll('input[name="q9[]"]');
-  question9Inputs.forEach(function(input) {
-    if (input.checked) {
-      question9Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question9Answers, question9Selected)) {
-    totalScore += question9Score;
-  }
-  
-  // Question 10
-  var question10Answers = ['b']; // 正确答案
-  var question10Selected = []; // 选中的答案
-  var question10Score = 10; // 该题得分
-  var question10Inputs = document.querySelectorAll('input[name="q10[]"]');
-  question10Inputs.forEach(function(input) {
-    if (input.checked) {
-      question10Selected.push(input.value);
-    }
-  });
-  if (arrayEquals(question10Answers, question10Selected)) {
-    totalScore += question10Score;
-  }
-  
-  // 更多题目的代码省略
-  
-  // 最终得分
-  document.getElementById("total-score").innerHTML = totalScore;
-}
-
-function arrayEquals(a, b) {
-  if (a.length !== b.length) return false;
-  for (var i = 0; i < a.length; i++) {
-    if (a[i] !== b[i]) return false;
-  }
-  return true;
-}
-</script>
-      
-  </body>
+</body>
 </html>
